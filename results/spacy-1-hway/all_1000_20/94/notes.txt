@@ -1,0 +1,38 @@
+{
+    "run_id": 94,
+    "min_word_count": 20,
+    "min_timespent_minutes": 10,
+    "word_embeddings": {
+        "type": "spacy"
+    },
+    "bin_count": 0,
+    "model_params": {
+        "lstm_dropout": 0.18133118215134336,
+        "optimizer": [
+            "rmsprop",
+            0.00476827454437544
+        ],
+        "dropout": 0.16276917179224482,
+        "loss": "mean_absolute_error",
+        "lstm_node_count": 67,
+        "max_words": [
+            100,
+            0
+        ],
+        "conform_activation": "tanh",
+        "batch_size": 512,
+        "lstm_recurrent_dropout": 0.2990302663520752,
+        "conform_type": "hway",
+        "conform_layer_count": 108,
+        "workers": 4,
+        "lstm_count": 1
+    },
+    "training_session_id": "25_all_spacy",
+    "training_dataset_id": "all",
+    "min_project_size": 1000,
+    "max_timespent_minutes": 960
+}
+Human loss (test): 1.050967991739806
+Mean loss (test): 2.7728201881021235
+Median loss (test): 2.5117707795560147
+Result: 0.9281033509095766

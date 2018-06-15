@@ -1,0 +1,33 @@
+{
+    "min_project_size": 200,
+    "min_timespent_minutes": 10,
+    "training_session_id": "6_all_spacy",
+    "min_word_count": 10,
+    "bin_count": 0,
+    "word_embeddings": {
+        "type": "spacy"
+    },
+    "training_dataset_id": "all",
+    "run_id": 91,
+    "max_timespent_minutes": 960,
+    "model_params": {
+        "optimizer": [
+            "adam",
+            0.002891098182919469
+        ],
+        "max_words": 100,
+        "lstm_recurrent_dropout": 0.07712284300739261,
+        "workers": 4,
+        "dropout": 0.2785185825891972,
+        "highway_layer_count": 148,
+        "batch_size": 512,
+        "lstm_dropout": 0.5786973840560713,
+        "lstm_node_count": 30,
+        "loss": "mean_absolute_error",
+        "highway_activation": "relu"
+    }
+}
+Human loss (test): 1.149534125766852
+Mean loss (test): 2.9128046388320947
+Median loss (test): 2.735443507157464
+Result: 0.9500044106835241

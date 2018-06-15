@@ -1,0 +1,39 @@
+{
+    "bin_count": 0,
+    "training_dataset_id": "all",
+    "run_id": 132,
+    "min_project_size": 200,
+    "word_embeddings": {
+        "iterations": 10,
+        "embedding_size": 232,
+        "window_size": 15,
+        "minimum_count": 5,
+        "algorithm": "CBOW",
+        "type": "gensim"
+    },
+    "min_word_count": 20,
+    "min_timespent_minutes": 10,
+    "max_timespent_minutes": 960,
+    "model_params": {
+        "loss": "mean_absolute_error",
+        "workers": 4,
+        "batch_size": 512,
+        "highway_layer_count": 115,
+        "lstm_node_count": 17,
+        "lstm_dropout": 0.03956523346874621,
+        "highway_activation": "tanh",
+        "dropout": 0.28692076877617373,
+        "lstm_recurrent_dropout": 0.4876398599626789,
+        "optimizer": [
+            "adam",
+            0.004197277787786562
+        ],
+        "max_words": 100
+    },
+    "training_session_id": "2_all_gensim"
+}
+Gensim model loss: 6072924.5
+Human loss (test): 1.1647829588387126
+Mean loss (test): 2.939784778366559
+Median loss (test): 2.779676874130046
+Result: 0.9468553483278437

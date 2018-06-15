@@ -1,0 +1,45 @@
+{
+    "model_params": {
+        "dropout": 0.12813947388287505,
+        "lstm_count": 3,
+        "bi_lstm_merge_mode": "ave",
+        "batch_size": 512,
+        "lstm_dropout": 0.08320441098922324,
+        "max_words": [
+            100,
+            0
+        ],
+        "conform_type": "hway",
+        "lstm_node_count": 136,
+        "loss": "mean_absolute_error",
+        "conform_layer_count": 129,
+        "lstm_recurrent_dropout": 0.3668820102780283,
+        "optimizer": [
+            "rmsprop",
+            0.0006489528908839269
+        ],
+        "workers": 4,
+        "conform_activation": "relu"
+    },
+    "training_dataset_id": "all",
+    "word_embeddings": {
+        "window_size": 15,
+        "iterations": 15,
+        "algorithm": "skip-gram",
+        "embedding_size": 217,
+        "type": "gensim",
+        "minimum_count": 15
+    },
+    "min_word_count": 20,
+    "min_project_size": 200,
+    "max_timespent_minutes": 960,
+    "bin_count": 0,
+    "min_timespent_minutes": 10,
+    "training_session_id": "4_all_gensim",
+    "run_id": 177
+}
+Gensim model loss: 55169592.0
+Human loss (test): 1.165735931596714
+Mean loss (test): 2.9420391792120406
+Median loss (test): 2.7859156890037777
+Result: 0.9251651772066923

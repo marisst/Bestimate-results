@@ -1,0 +1,32 @@
+{
+    "max_timespent_minutes": 960,
+    "min_word_count": 20,
+    "bin_count": 0,
+    "min_timespent_minutes": 10,
+    "model_params": {
+        "lstm_dropout": 0.5081839219227106,
+        "lstm_node_count": 18,
+        "loss": "mean_absolute_error",
+        "highway_layer_count": 106,
+        "optimizer": [
+            "adam",
+            0.003388590499695122
+        ],
+        "batch_size": 512,
+        "dropout": 0.022433212932551926,
+        "max_words": 100,
+        "lstm_recurrent_dropout": 0.1323926689569092,
+        "highway_activation": "tanh",
+        "workers": 8
+    },
+    "word_embeddings": {
+        "type": "spacy"
+    },
+    "min_project_size": 500,
+    "training_session_id": "14_all_spacy",
+    "training_dataset_id": "all"
+}
+Human loss (test): 1.1830821660830406
+Mean loss (test): 2.9345884512702374
+Median loss (test): 2.800456478239119
+Result: 0.9887331327850569
