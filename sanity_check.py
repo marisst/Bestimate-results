@@ -14,9 +14,7 @@ CORRECT_COUNTS = {
     "all_500_20": (19992, 158405),
     "all_1000_1": (23768, 145730),
     "all_1000_10": (16945, 118635),
-    "all_1000_20": (9686, 52840),
-
-}
+    "all_1000_20": (9686, 52840)}
 
 def subdirs(root_dir):
     for item in os.listdir(root_dir):
@@ -80,8 +78,6 @@ def sanity_check(architecture, dataset):
                 print("Wrong context transformation network type, %s architecture, %s dataset, %s run" % (architecture, dataset, run))
                 return False
 
-
-    
     return True
 
 
